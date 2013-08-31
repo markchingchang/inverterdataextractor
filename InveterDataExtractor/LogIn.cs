@@ -15,6 +15,8 @@ namespace InveterDataExtractor
         private const string FileName = "ExtractorLogin.np";
 
         private readonly string _filePath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),FileName);
+        
+        
         public LogIn()
         {
             
