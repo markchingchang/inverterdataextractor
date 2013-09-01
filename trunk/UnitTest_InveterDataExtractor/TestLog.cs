@@ -24,6 +24,7 @@ namespace UnitTest_InveterDataExtractor
 
 
         [Test]
+        [Ignore]
         public void DoesExists()
         {
             Log log = new Log("Test");
