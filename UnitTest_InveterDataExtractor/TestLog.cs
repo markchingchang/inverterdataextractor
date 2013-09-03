@@ -49,6 +49,19 @@ namespace UnitTest_InveterDataExtractor
             Assert.IsTrue(true);
         }
 
+        [Test]
+        public void WriteToDebugLog()
+        {
+            Log log = new Log();
+
+            log.WriteToLog("Dette er en tester", LogCtrl.Info);
+            log.WriteToLog("Dette er en tester2", LogCtrl.Info);
+
+
+            Assert.IsTrue(true);
+        }
+
+
 
     }
 }
