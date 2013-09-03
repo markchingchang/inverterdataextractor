@@ -17,6 +17,7 @@ namespace InveterDataExtractor
         RX,
         WriteError,
         OK,
+        none,
     }
     
     public class Log
@@ -73,7 +74,7 @@ namespace InveterDataExtractor
             return DateTime.Now.Date.ToString().Substring(0,10);
         }
 
-        public LogCtrl WriteToLog(string logMsg, LogCtrl ctrl)
+        public LogCtrl WriteToLog(string logMsg, LogCtrl ctrl = LogCtrl.none)
         {
             if (FileExists())
             {
@@ -82,7 +83,7 @@ namespace InveterDataExtractor
                 if (fs.CanWrite)
                 {
 
-                    logMsg = GetDate() + " " + getTime() + "\t[" + ctrl.ToString() + "]\t" + logMsg + "\r\n";
+                    logMsg = GetDate() + " " + getTime() + "\t[" + (ctrl == LogCtrl.none ? "" : ctrl.ToString())  + "]\t" + logMsg + "\r\n";
                     
                     byte[] info = new UTF8Encoding(true).GetBytes(logMsg);
                     fs.Write(info, 0, info.Length);

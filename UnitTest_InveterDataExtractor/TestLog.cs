@@ -12,6 +12,8 @@ namespace UnitTest_InveterDataExtractor
     class TestLog
     {
 
+        
+
         [Test]
         public void GetDate()
         {
@@ -24,7 +26,6 @@ namespace UnitTest_InveterDataExtractor
 
 
         [Test]
-        [Ignore]
         public void DoesExists()
         {
             Log log = new Log("Test");
