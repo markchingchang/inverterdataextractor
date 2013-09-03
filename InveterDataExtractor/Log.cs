@@ -34,7 +34,8 @@ namespace InveterDataExtractor
 
         public Log()
         {
-            
+            string currentPath = Directory.GetCurrentDirectory();
+            CreateLog(Path.Combine(currentPath, "Log"));
         }
 
 
@@ -90,6 +91,10 @@ namespace InveterDataExtractor
                     fs.Close();
                 }
 
+                if (!fs.CanWrite)
+                {
+                    fs.Close();
+                }
 
                 return LogCtrl.OK;
             }
