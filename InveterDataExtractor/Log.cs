@@ -22,12 +22,6 @@ namespace InveterDataExtractor
     
     public class Log
     {
-
-        
-
-
-
-
         private readonly string _folderPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
         private readonly string _appName;
         private string _fullPath;
