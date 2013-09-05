@@ -1,0 +1,4 @@
+J:\programmering\InverterDataExtractor\ReferenceCode\bin\Release\ReferenceCode.dll
+J:\programmering\InverterDataExtractor\ReferenceCode\bin\Release\ReferenceCode.pdb
+J:\programmering\InverterDataExtractor\ReferenceCode\obj\Release\ReferenceCode.dll
+J:\programmering\InverterDataExtractor\ReferenceCode\obj\Release\ReferenceCode.pdb
