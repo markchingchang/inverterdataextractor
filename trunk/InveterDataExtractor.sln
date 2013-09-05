@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveterDataExtractor", "InveterDataExtractor\InveterDataExtractor.csproj", "{E9CAF41B-2CC4-49E9-A5C7-8B856511EF2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_InveterDataExtractor", "UnitTest_InveterDataExtractor\UnitTest_InveterDataExtractor.csproj", "{5D38849C-4D33-4E41-8ADE-183214800CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceCode", "ReferenceCode\ReferenceCode.csproj", "{8019AA0B-437E-4D42-AAEB-3166192CC90A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{E9CAF41B-2CC4-49E9-A5C7-8B856511EF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9CAF41B-2CC4-49E9-A5C7-8B856511EF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9CAF41B-2CC4-49E9-A5C7-8B856511EF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D38849C-4D33-4E41-8ADE-183214800CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D38849C-4D33-4E41-8ADE-183214800CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D38849C-4D33-4E41-8ADE-183214800CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D38849C-4D33-4E41-8ADE-183214800CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8019AA0B-437E-4D42-AAEB-3166192CC90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8019AA0B-437E-4D42-AAEB-3166192CC90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8019AA0B-437E-4D42-AAEB-3166192CC90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8019AA0B-437E-4D42-AAEB-3166192CC90A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

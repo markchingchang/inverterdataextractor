@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
 using InveterDataExtractor;
+using NUnit.Framework;
 
-namespace UnitTest_InveterDataExtractor
+namespace UnitTest_InveterDataExtractor.TestCases
 {
     [TestFixture]
     public class TestHid
