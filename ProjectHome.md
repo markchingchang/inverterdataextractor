@@ -1,0 +1,1 @@
+This project will give a client graphical interface, where data is accessable from a MySQL sever
